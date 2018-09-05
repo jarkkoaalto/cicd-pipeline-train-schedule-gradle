@@ -16,3 +16,4 @@ node {
 task build
 
 build.dependsOn npm_build
+npm_build.dependsOn npmInstall
